@@ -1,0 +1,428 @@
+body > header {
+	width: 80%;
+	color: black;
+	background-color: #424558;
+	/* text-align:right; */
+	border: 1px solid black;
+	margin: 0 0 0 0;
+	left: 10%;
+	position: absolute;
+}
+
+#entete {
+	width: 80px;
+}
+
+.box {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around; 
+	text-align : center;
+
+}
+
+#bac {left : 36%;
+position : absolute;
+top : 35%;
+color : white;
+background-color: #424558 ;
+border : 1px solid black; 
+padding-left : 30px;
+padding-right : 30px;
+}
+
+.logo {width : 100px;
+height : 100px;
+background-color : white;
+/* -webkit-filter: invert(100%); */
+}
+
+.logo3 {width : 230px;
+height : 100px;
+background-color : white;
+/* -webkit-filter: invert(100%); */
+}
+
+.logo2 {width : 120px;
+height : 70px;
+background-color : white;
+/* -webkit-filter: invert(100%); */
+}
+
+p {color: #c2c2c2 ;
+font-size : 1em;
+font-style : oblique;
+font-weight : bold; }
+
+.title{text-align :center;
+text-shadow: 0.1em 0.1em 0.2em black;}
+
+
+strong {font-size : 1.1em;
+color : white;
+font-style : normal;
+font-weight : bold; }
+
+#bactext {left : 28%;
+position : absolute;
+top : 19%;
+color : white;
+/* background-color: #424558 ;
+border : 1px solid black;  */
+padding-left : 100px;
+padding-right : 100px;
+padding-bottom : 20px;
+}
+
+#prepatext{left : 22%;
+position : absolute;
+top : 19%;
+color : white;
+/* background-color: #424558 ;
+border : 1px solid black;  */
+padding-left : 100px;
+padding-right : 100px;
+padding-bottom : 20px;
+}
+
+#licencetext{left : 28%;
+position : absolute;
+top : 19%;
+color : white;
+/* background-color: #424558 ;
+border : 1px solid black;  */
+padding-left : 100px;
+padding-right : 100px;
+padding-bottom : 20px;
+}
+
+#licencetext a, #licencetext a:visited {
+	color: #12f7ec;
+	font-size : 1.1em;
+	font-style : normal;
+font-weight : bold;
+}
+
+#licencetext a:hover, #licencetext a:focus, #licencetext a:active {
+ 	color:  white; 
+	font-size : 1.1em;
+	font-style : normal;
+font-weight : bold;
+}
+
+#mastertext{left : 22%;
+position : absolute;
+top : 19%;
+color : white;
+/* background-color: #424558 ; */
+/* border : 1px solid black;  */
+padding-left : 100px;
+padding-right : 100px;
+padding-bottom : 20px;
+}
+
+#mastertext a, #mastertext a:visited {
+	color: #12f7ec;
+	font-size : 1.1em;
+	font-style : normal;
+font-weight : bold;
+}
+
+#mastertext a:hover, #mastertext a:focus, #mastertext a:active {
+ 	color:  white; 
+	font-size : 1.1em;
+	font-style : normal;
+font-weight : bold;
+}
+
+#javatext{left : 28%;
+position : absolute;
+top : 19%;
+color : white;
+/* background-color: #424558 ;
+border : 1px solid black;  */
+padding-left : 100px;
+padding-right : 100px;
+padding-bottom : 20px;
+}
+
+body {
+	background-color: #264c8a
+}
+
+/* ************************** TEXT CACHE ************************** */
+.tooltip {background-color : #424558;
+width : 84px;
+border-radius: 9px;
+padding-left:3px;
+padding-right:3px;}
+
+.bacca {
+    display:none;
+    font-family:"Arial";
+    font-size : 0.85em;
+    font-weight: bold;
+}
+
+.tooltip:hover .bacca {
+    display:block;
+       width : 1090px;
+    background-color : #424558;
+	border-radius: 9px;
+	padding:20px;
+}
+
+.prepa {
+    display:none;
+        font-family:"Arial";
+    font-size : 0.85em;
+    font-weight: bold;
+}
+
+.tooltip:hover .prepa {
+    display:block;
+       width : 1090px;
+    background-color : #424558;
+	border-radius: 9px;
+	padding:20px;
+}
+
+.licence {
+    display:none;
+}
+
+.tooltip:hover .licence {
+    display:block;
+       width : 1090px;
+    background-color : #424558;
+	border-radius: 9px;
+	padding:20px;
+}
+
+.master {
+    display:none;
+}
+
+.tooltip:hover .master {
+    display:block;
+       width : 1090px;
+    background-color : #424558;
+	border-radius: 9px;
+	padding:20px;
+}
+
+.java {
+    display:none;
+}
+
+.tooltip:hover .java {
+    display:block;
+    width : 1090px;
+    background-color : #424558;
+	border-radius: 9px;
+	padding:20px;
+	
+}
+
+/* ************************** FIN TEXT CACHE ************************** */
+
+/* ************************** MENU DEROULANT ************************** */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav>ul {
+	/* "> " pour ne cibler que la liste ul qui est un enfant direct de nav */
+	margin: 30px;
+	padding: 0px;
+}
+
+nav>ul>li {
+	/* affichage des éléments de li cote à cote dans le menu ligne */
+	float: left;
+	position: relative;
+	padding: 0 50px
+}
+
+nav li { /* retrait des puces devant tous les élements li de nav */
+	list-style-type: none;
+}
+
+
+nav .PARCOURS {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:0.9em;
+	padding:0;
+}
+
+nav .PREPA {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:0.9em;
+	padding:0;
+}
+
+nav .LICENCE {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:0.9em;
+	padding:0;
+}
+
+nav .MASTER {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:0.9em;
+	padding:0;
+}
+
+nav .JAVA {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:0.9em;
+	padding:0;
+}
+
+nav {
+	/* affichage du navigateur sur toute la longueur + couleur de la bande*/
+	width: 100%;
+	background-color: #424558;
+	display: flex;
+	height: 90px;
+	align-items: baseline;
+	flex-grow: 4;
+	flex-wrap:nowrap;
+	/* justify-content: space-around */
+}
+
+nav a {
+	/* ajout d'une marge intérieure et retrait du trait de soulignement */
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+nav>ul>li>a { /* Onglets en blanc */
+	padding: 20px 30px;
+	color: #ffffff;
+}
+
+
+
+.PARCOURS:hover {
+	/* bande bleue sur les onglets au passage de la souris + voile bleu */
+	border-top: 5px solid #05cffa;
+}
+
+.PREPA:hover {
+	border-top: 5px solid #05cffa;
+}
+
+.LICENCE:hover {
+	border-top: 5px solid #05cffa;
+}
+
+.MASTER:hover {
+	border-top: 5px solid #05cffa;
+}
+
+.JAVA:hover {
+	border-top: 5px solid #05cffa;
+}
+
+
+/* ************************** FIN MENU ************************** */
+
+/* ************************** TIMELINE ************************** */
+
+
+
+.container ul {
+  list-style: none;
+  position: absolute;
+  top: 25%;
+  left: 4%;
+ 	
+  padding: 1px 100px;
+  color: #fff;
+  font-size: 15px;
+}
+.container ul:before {
+  content: '';
+  width: 1px;
+  height: 100%; /*longueur des séparations entre temps*/
+  position: absolute;
+  border-left: 2px dashed #fff; /*définition du trait pointillé*/
+  
+}
+.container ul li {
+  position: relative;
+  margin-left: 30px ;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 6px;
+  width: 200%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+}
+.container ul li:not(:first-child) {
+  margin-top: 160px; /*longueur des séparations entre temps*/
+}
+
+.container ul li > span { /* parametre traits plein*/
+  width: 5px;
+  height: 100%; /*deplace le deuxieme point, vaSavoirPourquoi */
+  background: #fff;
+  left: -30px; /* pour caller les traits pleins sur les traits pointillés*/
+  top: 0;
+  position: absolute;
+}
+
+
+.container ul li > span:before, .container ul li > span:after { /*gére les points sur la frise*/
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -4px;
+  top: -10px;
+}
+.container ul li span:after {
+  top: 100%;
+}
+.container ul li > div {
+  margin-left: 20px;  /* espacement texte par rapport au trait*/
+}
+.container div .title, .container div .type {
+  font-weight: 600;
+  font-size: 18px;
+}
+.container div .info {
+  font-weight: 300;
+}
+.container div > div {
+  margin-top: 5px;
+}
+.container span.number {
+  height: 100%; /*longueur trait plein*/
+} 
+.container span.number span { /*police des dates*/
+  position: absolute;
+  font-size: 25px;
+  left: -70px;
+  top: -20px; /* position horizontale des dates */
+  font-weight: bold;
+}
+
+/* .container span.number span:first-child {
+  top: 0;
+} */
+.container span.number span:last-child {
+  top: 95%; /* position verticale des dates */
+} 
+
+/* ************************** FIN TIMELINE ************************** */

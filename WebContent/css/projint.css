@@ -1,0 +1,148 @@
+header {
+	width: 80%;
+	color: black;
+	background-color: #424558;
+	/* text-align:right; */
+	border: 1px solid black;
+	margin: 0 0 0 0;
+	left: 10%;
+	position: fixed;
+}
+
+#entete {
+	width: 80px;
+}
+
+.box {
+	display: flex;
+	flex-wrap: nowrap;
+	/* justify-content: space-around; */
+}
+
+body {
+	background-color: #264c8a
+}
+
+/* ************************** MENU DEROULANT ************************** */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav>ul {
+	/* "> " pour ne cibler que la liste ul qui est un enfant direct de nav */
+	margin: 30px;
+	padding: 0px;
+}
+
+nav>ul>li {
+	/* affichage des éléments de li cote à cote dans le menu ligne */
+	float: left;
+	position: relative;
+	padding: 0 100px
+}
+
+nav li { /* retrait des puces devant tous les élements li de nav */
+	list-style-type: none;
+}
+
+.submenu2{			/* on cache temporairement les sous-onglets */
+ 	display : none; 
+ 	padding:0px;
+	margin:0px;
+}
+
+.submenu2 li{		/* affichage d'un séparateur entre chaque sous-onglet */
+	border-bottom : 1px solid #CCC;
+}
+
+nav > ul > li > a{	/* Onglets en blanc */
+	padding : 20px 30px;
+	color : #ffffff;
+}
+
+ nav .sports:hover .submenu2{		/* Positionnement des sous-onglets + couleur de base des sous-onglets */
+	display : inline-block;
+	position : absolute;
+	top : 90%;
+	left : 0px;
+	z-index : 100000;
+	background-color : #ffffff;
+}
+
+.submenu2 > li:hover > a{		/* tous les sous-onglets deviennent bleu + gras au passage de la souris*/
+	color : #0080ff;
+	font-weight : bold;
+	background-color : #c0ecfa;
+}
+
+.submenu2 li a{		/* modulation du séparateur entre chaque sous-onglet + écriture */
+	padding : 10px 20px;
+	font-size : 13px;
+	color : #222538;
+	width : 200px;
+}
+
+
+nav .road{
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:1em;
+	
+}
+
+nav .sports {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:1em;
+}
+
+nav .ecolo {
+	border-top: 2px solid white;
+	top: -10px;
+	font-size:1em;
+}
+
+
+nav {
+	/* affichage du navigateur sur toute la longueur + couleur de la bande*/
+	width: 100%;
+	background-color: #424558;
+	display: flex;
+	height: 90px;
+	align-items: baseline;
+	flex-grow: 4;
+	flex-wrap:nowrap;
+	/* justify-content: space-around */
+}
+
+nav a {
+	/* ajout d'une marge intérieure et retrait du trait de soulignement */
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+nav>ul>li>a { /* Onglets en blanc */
+	padding: 20px 30px;
+	color: #ffffff;
+}
+
+
+.road:hover {
+	border-top: 5px solid #05cffa;
+}
+
+.sports:hover {
+	border-top: 5px solid #05cffa;
+}
+
+.ecolo:hover {
+	border-top: 5px solid #05cffa;
+}
+
+
+
+
+
+/* ************************** FIN MENU ************************** */

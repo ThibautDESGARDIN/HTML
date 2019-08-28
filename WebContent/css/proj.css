@@ -1,0 +1,267 @@
+body > header{width: 80%; 
+	color : black;
+	background-color: #424558 ; 
+	/* text-align:right; */
+	border : 1px solid black;
+	margin: 10px 0 0 0;
+	left : 10%;
+	position:fixed;
+	z-index:10000;
+	
+	}
+	
+footer a, footer a:visited {
+	color: #12f7ec;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+	color:  pink;
+}
+
+body > footer{width: 90%; 
+	color :    #dcdcdc  ;
+	background-color: #424558 ; 
+	/* text-align:right; */
+	border : 1px solid black;
+	margin: 10px 0 0 0;
+	padding-left : 30px;
+	padding-right : 30px;
+	
+	top : 90%;
+	left : 3%;
+	position:fixed;
+	z-index:10000;
+	/* align-items:end; */
+	font-size : 0.8em;
+	
+	}
+
+.logo {width : 30px;
+-webkit-filter: invert(100%);
+}
+
+.logo2 {width : 30px;
+}
+
+.foot {margin : 0; padding:10px;} 
+
+#entete{width:80px; 
+}
+
+body > section > header {position : absolute;
+top : 30%;
+left : 2%;
+z-index:5000;
+color:white;
+text-align:center;
+background-color:#424558;
+padding-top:50px;
+padding-left: 45px;
+padding-right: 45px;
+border : 1px solid black;
+
+}
+ 
+.photo_profil{width:225px;
+border: 1px solid black;} 
+
+body > section > article {position : absolute;
+top : 33%;
+left : 32%;
+color:white;
+background-color:#424558;
+} 
+
+body > section > article > div {padding-right: 100px;
+padding-top:20px;
+padding-bottom:30px;
+border : 1px solid black;}
+
+body > section > aside {position : absolute;
+top : 33%;
+left : 82%;
+color:white;
+background-color:#424558;
+border : 1px solid black;
+padding: 20px;
+
+} 
+	
+	
+
+
+.first{font-size:1.2em}
+
+ .box {
+         	display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around; 
+            align-items:center;
+          }
+body{background-color : #264c8a;
+background-image: url("../img/fondmer.jpg");
+
+	background-size: cover;}
+	
+/* ************************** MENU DEROULANT ************************** */
+
+body{
+	margin : 0px;
+	padding : 0px;
+} 
+nav > ul{			/* "> " pour ne cibler que la liste ul qui est un enfant direct de nav */	
+	margin : 30px;
+	padding : 0px;
+}
+
+nav > ul > li{		/* affichage des éléments de li cote à cote dans le menu ligne */
+	float : left;
+	position : relative;
+	padding: 0 50px
+}
+
+nav li{				/* retrait des puces devant tous les élements li de nav */
+	list-style-type : none;
+}
+
+.submenu{			/* on cache temporairement les sous-onglets */
+ 	display : none; 
+}
+
+nav .PARCOURS{
+	border-top: 2px solid white;
+	top: -10px
+	}
+
+nav .EXPERIENCES{
+	border-top: 2px solid white;
+	top: -10px
+	}
+	
+nav .INTERET{
+	border-top: 2px solid white;
+	top: -10px
+	}
+	
+nav {				/* affichage du navigateur sur toute la longueur + couleur de la bande*/
+	width : 100%;
+	background-color : #424558;
+	display:flex;
+	height:90px;
+	align-items:baseline;
+	flex-grow: 4;
+	/* justify-content: space-around */
+}
+
+/* nav > ul::after{	Faire apparaitre les sous-onglets cachés précédemment
+	content : "";
+	display : block;
+	clear : both;
+} */
+
+nav a{				/* ajout d'une marge intérieure et retrait du trait de soulignement */
+	display : inline-block;
+	text-decoration : none;
+	font-size: 1.2em;
+}
+
+nav > ul > li > a{	/* Onglets en blanc */
+	padding : 20px 30px;
+	color : #ffffff;
+}
+
+.submenu{			/* affichage du menu seulement lorsque la souris passe sur les liens */
+	display : none;
+	padding:0px;
+	margin:0px;
+}
+
+
+ nav .PARCOURS:hover .submenu{		/* Positionnement des sous-onglets + couleur de base des sous-onglets */
+	display : inline-block;
+	position : absolute;
+	top : 90%;
+	left : 0px;
+	z-index : 100000;
+	background-color : #ffffff;
+}
+
+ nav .EXPERIENCES:hover .submenu{		
+	display : inline-block;
+	position : absolute;
+	top : 90%;
+	left : 0px;
+	z-index : 900000;
+	background-color : #ffffff;
+}
+
+nav .INTERET:hover .submenu{		
+	display : inline-block;
+	position : absolute;
+	top : 90%;
+	left : 0px;
+	z-index : 100000;
+	background-color : #ffffff; */
+}
+
+.submenu2 li:hover a{		/* tous les sous-onglets deviennent bleu + gras au passage de la souris*/
+	color : #0080ff;
+	font-weight : bold;
+	background-color : #c0ecfa;
+}
+
+.SPORTS > ul > li > a {	/* Onglets en blanc */
+	color : black;
+	border : 1px solid grey;
+	
+}
+/* TESTS */
+
+.submenu2{			/* affichage du menu seulement lorsque la souris passe sur les liens */
+	display: none;
+	padding:0px;
+	margin:0px;
+}
+
+
+
+nav .INTERET .submenu .SPORTS:hover .submenu2{		
+	display : inline-block;
+	position : absolute;
+	top : 22%;
+	left : 100%;
+	z-index : 100000;
+	background-color : #ffffff; 
+} 
+/* FIN TESTS */
+
+.submenu li{		/* affichage d'un séparateur entre chaque sous-onglet */
+	border-bottom : 1px solid #CCC;
+}
+
+.submenu li a{		/* modulation du séparateur entre chaque sous-onglet + écriture */
+	padding : 10px 20px;
+	font-size : 13px;
+	color : #222538;
+	width : 200px;
+}
+
+.PARCOURS:hover{		/* bande bleue sur les onglets au passage de la souris + voile bleu */
+	border-top: 5px solid #05cffa;
+}
+
+.EXPERIENCES:hover{
+	border-top: 5px solid #05cffa;
+}
+
+.INTERET:hover{
+	border-top: 5px solid #05cffa;
+}
+		
+.submenu > li:hover > a{		/* tous les sous-onglets deviennent bleu + gras au passage de la souris*/
+	color : #0080ff;
+	font-weight : bold;
+	background-color : #c0ecfa;
+}
+
+/* ************************** FIN MENU DEROULANT ************************** */
